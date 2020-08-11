@@ -1,0 +1,33 @@
+{
+  "name": "algo-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "watch": "npm run dev --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joecamer/algo-runner.git"
+  },
+  "author": "Joe Codeur <joefaha1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joecamer/algo-runner/issues"
+  },
+  "homepage": "https://github.com/joecamer/algo-runner#readme"
+}
